@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+/* Parte 1 - Localização */
+.location-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.location-card {
+    background-color: #0e0e0e;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.location-card p {
+    font-size: 18px;
+}
+
+.location-card strong {
+    color: #e40000;
+}
+
+.location-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Parte 1 - Sobre Nós */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    background-color: #121212;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.about-text {
+    padding: 40px;
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text h2 span {
+    color: #e40000;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-text button {
+    background-color: #e40000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Parte 2 - Investigação Digital */
+.digital-investigation-section {
+    background-color: #0d0d0d;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.digital-investigation-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.digital-investigation-container h2 {
+    font-size: 36px;
+    color: #e40000;
+    margin-bottom: 40px;
+}
+
+.digital-investigation-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.digital-investigation-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.digital-investigation-container button {
+    background-color: #e40000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Parte 3 - Serviços de Investigação */
+.services-section {
+    background-color: #0c0c0c;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.service-item {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.service-number {
+    color: #e40000;
+    font-size: 28px;
+    float: right;
+}
+
+.service-item p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #d3d3d3;
+}
+
+button {
+    background-color: #e40000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
